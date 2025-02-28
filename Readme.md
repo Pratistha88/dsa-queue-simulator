@@ -35,5 +35,39 @@ conditions resume.
 
 ### simulator
 The simulator is implemented using SDL3. It displays the road network with 4 junctions and traffic light managing the passing and enqueing of the vechicle also ensuring that lanes with excessive traffic were given priority.
-![simulator](./img/simulator.mp4)
 
+![simulator](./img/simulator.gif)
+
+# How to run this Project
+
+1. Clone this github repo
+
+```bash
+git clone https://github.com/Pratistha88/dsa-queue-simulator.git
+```
+
+Make sure **make** command works on your local machine
+
+2. Steps to run the program
+
+Initially clear the data from **(./data/vehicles.txt)**
+
+then run:
+
+```bash
+make
+```
+
+after open a terminal and paste this:
+
+```bash
+./simulator
+```
+
+then open another terminal and paste this:
+
+```bash
+./generator
+```
+
+This will help you run the program.
