@@ -50,7 +50,7 @@ Make sure **make** command works on your local machine
 
 2. Steps to run the program
 
-Initially clear the data from **(./data/vehicles.txt)**
+Initially clear the data from **(./data/vehicleData.txt)**
 
 then run:
 
